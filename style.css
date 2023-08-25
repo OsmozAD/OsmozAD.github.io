@@ -1,0 +1,263 @@
+/* Arrière-plan */
+body {
+  	background-color: #FFFFFF;
+  	color: #222222;
+	margin: 30px;
+}
+
+/* Polices */
+	h1, h2, h3, h4, h5, h6, p {
+font-family: "San Francisco", sans-serif;
+}
+
+/* Utilisation d'images de qualité */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Utilisation d'animations subtiles */
+a:hover {
+	color: #007AFF;
+	transition: all 0.3s ease-in-out;
+}
+
+/* Conception simple et épurée */
+.container {
+	max-width: 1200px;
+ 	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.container img {
+	float: right;
+}
+
+.container p {
+	margin-right: 100px;
+}
+
+.hero {
+	max-width: 1400px;
+ 	margin: 0 auto;
+	padding-top: 20px;
+	border-top: 2px solid #E5E5E5;
+	padding-bottom: 110px;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+.hero img {
+	float: right;
+}
+
+.hero p {
+	margin-right: 0px;
+}
+
+/* Style des boutons */
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0070c9;
+	color: #FFFFFF;
+ 	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #0054FF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    border-top: 2px solid #E5E5E5;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: #0070c9;
+    border-bottom: 2px solid #0070c9;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+footer {
+	background-color: #f5f5f5;
+	padding: 40px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 40px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: #0070c9;
+}
+
+footer {
+  background-color: #f5f5f7;
+  padding: 40px 40;
+  border-top: 2px solid #E5E5E5;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.footer-nav,
+.footer-company,
+.footer-offers,
+.footer-social,
+.footer-legal {
+  width: 200%;
+  padding-right: 30px;
+  float: left;
+}
+
+.footer-nav ul,
+.footer-company ul,
+.footer-offers ul,
+.footer-social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav h3,
+.footer-company h3,
+.footer-offers h3,
+.footer-social h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-nav a,
+.footer-company a,
+.footer-offers a,
+.footer-social a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-nav a:hover,
+.footer-company a:hover,
+.footer-offers a:hover,
+.footer-social a:hover {
+  color: #000;
+}
+
+.footer-legal {
+  clear: both;
+  margin-top: 40px;
+  text-align: center;
+  padding-right: 30px;
+  float: left;
+  font-size: 12px;
+}
+
+.footer-legal ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+.footer-legal a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-legal a:hover {
+  color: #000;
+}
+
