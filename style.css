@@ -1,3 +1,4 @@
+
 /* Arrière-plan */
 body {
   	background-color: #FFFFFF;
@@ -148,6 +149,70 @@ nav > ul li:hover .sous{
 .conteneur{
   margin: 50px 20px;
   height: 1500px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+input[type="text"] {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 8px;
+  margin-right: 8px;
+  width: 800px;
+}
+
+button[type="submit"] {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #F3F3F3;
+  transition: color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  color: #000000;
+}
+
+#capture-button {
+  border: 0px solid #000000;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+#video-preview {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  margin: 80px auto;
+  max-height: 300px;
+  max-width: 300px;
+  float: right;
+  margin-right: 20px auto;
+}
+
+#canvas-preview {
+  border-radius: 10px;
+}
+
+.container-present {
+	padding-bottom: 30px;
+	text-align: center;
+	padding-top: 30px;
+	max-height: 100px;
 }
 
 footer {
