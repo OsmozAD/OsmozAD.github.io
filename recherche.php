@@ -16,18 +16,18 @@ if (isset($_POST['query'])) {
     
     // Exécution de la requête
     $result = $mysqli->query($sql);
-
-    // Affichage des résultats
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            echo "<p>Nom : " . $row['name'] . "</p>";
-            echo "<p>Description : " . $row['desc'] . "</p>";
-        }
-    } else {
-        echo "Aucun résultat trouvé.";
-    }
-
-    // Fermeture de la connexion à la base de données
-    $mysqli->close();
 }
+
+// Affichage des résultats
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo "<p>Nom : " . $row['name'] . "</p>";
+        echo "<p>Description : " . $row['desc'] . "</p>";
+    }
+} else {
+    echo "Aucun résultat trouvé.";
+}
+
+// Fermeture de la connexion à la base de données
+$mysqli->close();
 ?>
