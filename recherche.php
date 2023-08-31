@@ -8,8 +8,8 @@ if ($mysqli->connect_error) {
 }
 
 // Récupération de la requête de recherche depuis le formulaire HTML
-if (isset($_GET['query'])) {
-    $query = $_GET['query'];
+if (isset($_POST['query'])) {
+    $query = $_POST['query'];
 
     // Requête SQL pour rechercher dans la table "users"
     $sql = "SELECT * FROM users WHERE name LIKE '%$query%' OR desc LIKE '%$query%'";
