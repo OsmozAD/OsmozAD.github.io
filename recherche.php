@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données (à personnaliser avec vos informations)
-$mysqli = new mysqli('localhost', 'root', 'root', 'Base');
+$mysqli = new mysqli('mysql:host=find-it.website;dbname=Base;', 'root', 'root');
 
 // Vérification de la connexion
 if ($mysqli->connect_error) {
