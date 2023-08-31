@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données (à personnaliser avec vos informations)
-$mysqli = new mysqli('localhost', 'root', 'Achille59+', 'Base');
+$mysqli = new mysqli('localhost', 'root', 'root', 'Base');
 
 // Vérification de la connexion
 if ($mysqli->connect_error) {
