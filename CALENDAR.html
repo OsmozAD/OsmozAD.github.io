@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-	<header>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendrier des Événements à Venir</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<header>
         	<nav>
             		<ul>
 				<li>
@@ -39,66 +41,43 @@
             		</ul>
         	</nav>
     	</header>
-	<BR>
-	<BR>
-	<img src="present équilibre.jpg" alt="present équilibre" style="object-fit: cover; object-position: center;" width=auto height=500>
-	<BR>
-	<BR>
-	<main class="container-present">
-		<section>
-			<div id="presentation">
-				<h1>Présentation de l'entreprise</h1>
-				<p>Find-it est une entreprise qui a pour but de proposer des produites provenant du monde entier. <br/> Cela permet de découvrir des plats atypique et de sortir du quotidien.</p>
-			</div>
-		</section>
-	</main>
-	<BR>
-	<BR>
-	<img src="present viandes.jpg" alt="present viandes" style="object-fit: cover; object-position: center;" width=auto height=500>
-	<BR>
-	<BR>
-	<main class="container-present">
-		<section>
-			<div id="presentation">
-				<h1>Ethique et Ecologie</h1>
-				<p>Notre mission étant à but éducatif et culturel, nous pensons à l'environnement avant des penser argent.<br/>C'est notamment pour ces raisons que nous nous permettons de proposer des produits en édition limitée et de saison. Cela évite la surconsommation et évite un déséquilibre dans l'écosystème touché par la production.<br/>Les drops (mise en ligne des éditions limitées) sont disponibles à fréquences régulières, tous les jours, mois, trimestres, semestres ou ans.</p>
-			</div>
-		</section>
-	</main>
-	<BR>
-	<BR>
-	<img src="present légumes.jpg" alt="present légumes" style="object-fit: cover; object-position: center;" width=auto height=500>
-	<BR>
-	<BR>
-	<main class="container-present">
-		<section>
-			<div id="presentation">
-				<h1>Les Producteurs</h1>
-				<p>La variété infinnie de nos produit est due à des partenariat avec les producteurs locaux. Ils assurent la production, tandis que nous nous occupons,<br/> grâce aux sociétés de transport, de vous envoyer dans d'exelentes conditions les produits demandés.<br/>La plupart des producteurs ont une limite de produit maximum à envoyer car notre but est de ne pas augmenter leur production, simplement d'en faire profiter un maximum de monde sur Terre.</p>
-			</div>
-		</section>
-	</main>
-	<BR>
-	<BR>
-	<img src="present japonais.jpg" alt="present japonais" style="object-fit: cover; object-position: center;" width=auto height=500>
-	<BR>
-	<BR>
-	<main class="container-present">
-		<section>
-			<div id="presentation">
-				<h1>Devenez Membre</h1>
-				<p>Si notre activité vous intéresse, proposer votre candidature dans la section <a href="CARRIERES.html">Carrière</a> de notre site.<br> Devenez embassadeur Find-it, chercher de nouveaux producteur dans des lieux toujours plus reculés en parcourant le monde à nos frais.</p>
-				<BR>
-				<BR>				
-				<A href="CARRIERES.html" class="button">Devenir Membre</A>
-			</div>
-		</section>
-	</main>
-	<BR>
-	<BR>
-	<BR>
-	<BR>
-     <footer>
+<body>
+    <div class="calendar">
+        <div class="controls">
+            <select class="year-select"></select>
+            <button class="prev"><<</button>
+            <button class="next">>></button>
+        </div>
+        <div class="months">
+	    <div class="month">
+                <h3>Mars 2024</h3>
+                <ul class="days">
+                    <li>17/02 <span class="event">Développement site web</span></li>
+                    <li>20/02 <span class="event">Développement site web</span></li>
+                </ul>
+            </div>
+            <div class="month">
+                <h3>Avril 2024</h3>
+                <ul class="days">
+                    <li><span class="event">No upcoming event</span></li>
+                </ul>
+            </div>
+            <div class="month">
+                <h3>Mai 2024</h3>
+                <ul class="days">
+                    <li><span class="event">No upcoming event</span></li>
+                </ul>
+            </div>
+            <div class="month">
+                <h3>Juin 2024</h3>
+                <ul class="days">
+                    <li><span class="event">No upcoming event</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
         <div class="footer-nav">
             <h3>Navigation</h3>
             <ul>
@@ -142,5 +121,5 @@
 			<p><a href="CGU.pdf">Conditions d'utilisation</a></p>
 		</div>
         </div>
-    </footer>
-  </body>
+</footer>
+</html>
