@@ -237,24 +237,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.controls {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.controls button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 0 5px;
-}
-
-.year-select {
-    font-size: 16px;
-    padding: 5px;
-}
-
 .months {
     display: flex; /* Utilisation de flexbox pour afficher les mois côte à côte */
     justify-content: space-between; /* Espacement égal entre les mois */
