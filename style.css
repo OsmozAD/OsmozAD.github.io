@@ -17,6 +17,17 @@ img {
 	height: auto;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 600px; /* Ajustez cette valeur en fonction de la taille souhaitée pour vos images */
+    max-height: 350px; /* Ajustez cette valeur en fonction de la taille souhaitée pour vos images */
+}
+
 /* Utilisation d'animations subtiles */
 a:hover {
 	color: #007AFF;
