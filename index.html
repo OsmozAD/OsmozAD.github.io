@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accès au site</title>
+<script>
+    window.onload = function() {
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+            window.location = "page-bloquee.html"; // Rediriger vers la page bloquée si c'est un appareil mobile
+        } else {
+        }
+    }
+</script>
+</head>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +44,7 @@
 						<li><a href="MISSIONS.html#Endurance I">Endurance I</a></li>
 						<li><a href="MISSIONS.html#Endurance II">Endurance II</a></li>
 						<li><a href="MISSIONS.html#Endurance III">Endurance III</a></li>
+						<li><a href="MISSIONS.html#Estes Rocket">Estes Rocket</a></li>
 						<li><a href="MISSIONS.html#Endurance IV">Endurance IV</a></li>
 					</ul>
 		</li>
@@ -191,4 +208,5 @@
         </div>
     </footer>
 </body>
+</html>
 </html>
