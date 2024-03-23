@@ -62,6 +62,16 @@ a:hover {
 	float: right;
 }
 
+.hero video {
+	float: right;
+    	max-width: 600px;
+    	max-height: 350px;
+    	top: 0%;
+    	left: 0%;
+    	transform: translate( 0%, 0%);
+   	position: relative;
+}
+
 .hero p {
 	margin-right: 0px;
 }
