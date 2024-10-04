@@ -49,6 +49,24 @@ a:hover {
 	margin-right: 100px;
 }
 
+.herop {
+	max-width: 1400px;
+ 	margin: 0 auto;
+	padding-top: 20px;
+	border-top: 2px solid #E5E5E5;
+	padding-bottom: 110px;
+}
+
+.herop video {
+	float: right;
+    	max-width: 600px;
+    	max-height: 350px;
+    	top: 0%;
+    	left: 0%;
+    	transform: translate( 0%, 0%);
+   	position: relative;
+}
+
 .hero {
 	max-width: 1400px;
  	margin: 0 auto;
@@ -112,13 +130,14 @@ nav{
     width: 100%;
     margin: 0 auto;
     background-color: #f5f5f5;
-    position: sticky;
+    position: fixed;
+    z-index: 1000;
     top: 0px;
     border-top: 2px solid #E5E5E5;
 }
 
 nav ul{
-    width: 100%;
+    width: 110%;
     list-style-type: none;
 }
 
